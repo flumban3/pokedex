@@ -1,0 +1,18 @@
+.previous,
+.next {
+  border-radius: 10px;
+}
+
+.previous {
+  margin-left: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.next {
+  margin-right: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

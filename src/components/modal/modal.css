@@ -1,0 +1,76 @@
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(8px);
+}
+
+.modal {
+  width: 600px;
+  height: 800px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.pokemon-name {
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.close-modal {
+  border-radius: 10px;
+  width: 10%;
+}
+
+.close-modal:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.pokemon-stat {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-pic {
+  height: 60%;
+  width: 60%;
+}
+
+.text {
+  text-align: left;
+  font-weight: bold;
+}
+
+.evolutions {
+  text-transform: capitalize;
+  font-weight: bold;
+}
